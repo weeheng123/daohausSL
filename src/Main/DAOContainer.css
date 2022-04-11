@@ -1,0 +1,33 @@
+.dao-container {
+  margin: 1rem;
+  background-color: rgb(44, 43, 43);
+  padding: 2rem;
+  border: 0.5px solid rgb(102, 102, 102);
+  border-radius: 1rem;
+}
+
+.dao-container-header {
+  padding-bottom: 1.5rem;
+}
+
+.dao-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dao-container-content h2 {
+  text-align: center;
+}
+
+.dao-container-content svg {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .dao-container {
+    width: 60%;
+  }
+}

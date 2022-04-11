@@ -1,0 +1,7 @@
+.dao-addresses h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: rgb(87, 87, 209);
+  cursor: pointer;
+  text-decoration: underline;
+}

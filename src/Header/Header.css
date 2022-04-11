@@ -1,0 +1,64 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: 2rem 1rem;
+}
+
+.right-div {
+  display: flex;
+  align-items: center;
+}
+
+.connect-wallet {
+  border: 1px solid #eb8a23;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.menu {
+  padding: 0.3rem 0.3rem 0.2rem 0.3rem;
+  border: 1px solid #eb8a23;
+  background-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+svg {
+  fill: #eb8a23;
+}
+
+header.container {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 768px) {
+  header.container {
+    font-size: 25px;
+    padding: 1rem;
+  }
+
+  .connect-wallet {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+
+  .menu {
+    padding: 0.3rem 0.3rem 0.2rem 0.3rem;
+    border: 1px solid #eb8a23;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .menu svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}

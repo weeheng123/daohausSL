@@ -1,0 +1,37 @@
+.haus-token-container {
+  margin: 1rem;
+  background-color: rgb(44, 43, 43);
+  border: 0.5px solid rgb(102, 102, 102);
+  border-radius: 1rem;
+}
+
+.haus-token-container-header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.haus-token-container-header h2 {
+  padding-right: 0.5rem;
+}
+
+.haus-token-container-content {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: auto;
+}
+
+.haus-token-container-content th {
+  padding-right: 2rem;
+  text-align: left;
+}
+
+.haus-token-container-content td {
+  padding-right: 2rem;
+}
+
+.haus-token-container-content svg {
+  height: 1rem;
+  width: 1rem;
+}

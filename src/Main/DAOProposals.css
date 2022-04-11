@@ -1,0 +1,9 @@
+.proposals {
+  border: 1px solid wheat;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+.proposals h2 {
+  margin-bottom: 0.5rem;
+}

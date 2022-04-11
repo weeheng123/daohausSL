@@ -1,0 +1,46 @@
+.no-dropdown {
+  height: 0vh;
+  transition: 1s;
+}
+
+.no-dropdown .container {
+  display: none;
+}
+.dropdown {
+  height: 30vh;
+  transition: 1s;
+  z-index: 10;
+  background-color: rgb(18, 18, 48);
+  padding: 1rem;
+}
+
+.dropdown .container {
+  transition-delay: 1s;
+  margin: 1rem 2rem;
+}
+
+.dropdown a {
+  transition-delay: 1s;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+
+.dropdown a:link {
+  text-decoration: none;
+}
+
+.dropdown a:visited {
+  text-decoration: none;
+}
+
+.dropdown a:active {
+  text-decoration: none;
+}
+
+.dropdown h2 {
+  transition-delay: 1s;
+  padding-left: 0.5rem;
+  color: white;
+}

@@ -1,0 +1,32 @@
+.dao-create-proposal-header {
+  padding-bottom: 1rem;
+}
+
+.dao-create-proposal h2 {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.proposal-parameters {
+  display: flex;
+  flex-direction: column;
+}
+
+.proposal-parameters input {
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 30%;
+}
+
+.proposal-parameters button {
+  background-color: rgb(101, 94, 206);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
