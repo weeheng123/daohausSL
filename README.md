@@ -1,3 +1,5 @@
+daohaus self learning using React. Smart Contract writes includes Summoning Moloch and Creating Proposals. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
