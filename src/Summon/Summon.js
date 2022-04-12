@@ -23,6 +23,7 @@ function Summon(props) {
   const [shares, setShares] = useState([0]);
   const [summoners, setSummoners] = useState([]);
 
+  //Better if using callback function
   function onChangeTokens(event) {
     setTokens(event.target.value);
     console.log(tokens);
